@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import AttendanceBook from './chapter_10/AttendanceBook';
+import Calculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <Calculator />
   </React.StrictMode>
 )
 
