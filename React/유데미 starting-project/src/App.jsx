@@ -1,9 +1,10 @@
 import componentsImg from './assets/components.png'
 import Header from './components/Header/Header.jsx'
-import TapButton from './components/TapButton.jsx';
+// import TapButton from './components/TapButton.jsx';
 import CoreConcepts from './components/CoreConcepts.jsx'
 import {useState, Fragment} from 'react'
 import {EXAMPLES} from './data.js'
+import Examples from './components/Examples.jsx'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <Header />
       <main>
         <CoreConcepts />
-
+        <Examples/>
       </main> 
     </Fragment>
   );
